@@ -50,7 +50,7 @@ staging_events_table_create= ("""
 
 staging_songs_table_create = ("""
     CREATE TABLE IF NOT EXISTS staging_songs (
-        song_id text PRIMARY KEY, 
+        song_id text, 
         artist_id text, 
         artist_latitude float, 
         artist_location text, 
